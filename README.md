@@ -1,5 +1,5 @@
 # parliament-members-app
-School project of Android programming using Kotlin
+School project: Android programming using Kotlin
 
 Implemented Features: 
 - Retrofit and Moshi
