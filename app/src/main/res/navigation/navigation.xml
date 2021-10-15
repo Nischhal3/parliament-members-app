@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/partyList">
+
+    <fragment
+        android:id="@+id/partyList"
+        android:name="com.example.parliamentmembers.fragment.PartyList"
+        android:label="PartyList"
+        tools:layout="@layout/fragment_party_list">
+        <action
+            android:id="@+id/action_partyList_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="com.example.parliamentmembers.fragment.PartyMemberList"
+        android:label="MainScreen"
+        tools:layout="@layout/fragment_main_screen">
+        <argument
+            android:name="item_name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_mainScreen_to_review"
+            app:destination="@id/review" />
+    </fragment>
+    <fragment
+        android:id="@+id/review"
+        android:name="com.example.parliamentmembers.fragment.MemberDetail"
+        android:label="Review"
+        tools:layout="@layout/fragment_member_detail">
+        <action
+            android:id="@+id/action_review_to_addReview"
+            app:destination="@id/addReview" />
+        <argument
+            android:name="item_id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_review_to_checkReview"
+            app:destination="@id/checkReview" />
+    </fragment>
+    <fragment
+        android:id="@+id/addReview"
+        android:name="com.example.parliamentmembers.fragment.AddReview"
+        android:label="AddReview"
+        tools:layout="@layout/fragment_add_review">
+        <action
+            android:id="@+id/action_addReview_to_review"
+            app:destination="@id/review" />
+        <argument
+            android:name="item_id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkReview"
+        android:name="com.example.parliamentmembers.fragment.CheckReview"
+        android:label="CheckReview"
+        tools:layout="@layout/fragment_check_review">
+        <argument
+            android:name="item_id"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>
