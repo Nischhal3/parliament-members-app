@@ -8,7 +8,6 @@ import com.example.parliamentmembers.model.ParliamentMember
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 4/10/2021
  *
  * Creating an actual instance of the database

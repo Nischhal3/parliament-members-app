@@ -7,7 +7,6 @@ import androidx.room.PrimaryKey
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 4/10/2021
  *
  * Data class of ParliamentMember

@@ -5,7 +5,6 @@ import androidx.room.PrimaryKey
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 9/10/2021
  *
  * Data class of Review

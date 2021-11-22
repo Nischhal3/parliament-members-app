@@ -8,7 +8,6 @@ import com.example.parliamentmembers.model.Review
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 4/10/2021
  *
  * Medium class between database and viewModel class

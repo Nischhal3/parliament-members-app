@@ -12,7 +12,6 @@ import com.example.parliamentmembers.fragment.PartyListDirections
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 8/10/2021
  *
  * RecyclerView Adapter for partyList Fragment

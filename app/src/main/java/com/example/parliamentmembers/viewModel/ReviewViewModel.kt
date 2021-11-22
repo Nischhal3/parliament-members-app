@@ -10,7 +10,6 @@ import kotlinx.coroutines.launch
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 9/10/2021
  *
  * Provides data for the UI via Repository from the database

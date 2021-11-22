@@ -15,7 +15,6 @@ import com.example.parliamentmembers.viewModel.ReviewViewModel
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 10/10/2021
  *
  * Fragment observers ReviewViewModel class

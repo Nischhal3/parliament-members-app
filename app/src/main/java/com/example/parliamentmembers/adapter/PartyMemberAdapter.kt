@@ -14,7 +14,6 @@ import com.squareup.picasso.Picasso
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 2/10/2021
  *
  * RecyclerView Adapter for partyMemberListFragment

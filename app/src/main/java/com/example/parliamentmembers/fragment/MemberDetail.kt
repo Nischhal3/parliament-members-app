@@ -16,7 +16,6 @@ import com.squareup.picasso.Picasso
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 9/10/2021
  *
  *Fragment Observes ParliamentMemberViewModel class and displays member details

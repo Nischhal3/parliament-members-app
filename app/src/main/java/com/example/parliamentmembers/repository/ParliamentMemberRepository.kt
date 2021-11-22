@@ -10,7 +10,6 @@ import kotlinx.coroutines.launch
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 4/10/2021
  *
  * Medium class between database, webserver and viewModel

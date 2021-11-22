@@ -16,7 +16,6 @@ import com.example.parliamentmembers.viewModel.ParliamentMemberViewModel
 
 /**
  * name: Nischhal Shrestha
- * id: 2012216
  * date: 8/10/2021
  *
  * Fragment Observes ParliamentMemberViewModel class

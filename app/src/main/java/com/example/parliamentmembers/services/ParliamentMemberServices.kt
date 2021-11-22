@@ -9,7 +9,6 @@ import retrofit2.http.GET
 
 /**
  * name: Nischhal Shrestha
- * id:
  * date: 2/10/2021
  *
  * Fetching data from the server
